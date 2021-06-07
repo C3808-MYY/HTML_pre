@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <form action:"http://www.clarusway.com/action_page.php">
+        <h1>Hg To My Site</h1>
+        İsim ve şifre Giriniz:<br>
+        <input type = "text" name="kullanıcı_adı" size ="19" placeholder="lol">
+        <br>
+        <input type = "password" name ="pass" size ="19" maxlength ="8">
+        <br>
+        <input type = "submit" value = "submit" size = "4">
+        <h3> Gander </h3>
+        <input type="radio" name="gender" value="male" > Male<br>
+        <input type="radio" name="gender" value="female" > Female
+        <h2>Days</h2>
+        <input type="checkbox" name="days" value="monday"> Monday<br>
+        <input type="checkbox" name="days" value="monday"> Tuesday<br>
+        <input type="checkbox" name="days" value="monday"> Wednesday<br>
+        <input type="checkbox" name="days" value="monday"> Thursday<br>
+        <input type="checkbox" name="days" value="monday"> Friyday<br>
+        <h3>How old are you=?</h3>
+        <input type="number" name="age" min="0" max="40" step="5"><br>
+        <input type="reset" value="clean"><br>
+        <input type="submit" value="submit">
+        <input type="range">
+        <input type="email">
+        <input type="url">
+        <input type="tel" value="TELL">
+        <input type="color">
+        <input type="file">
+        </form>
+   </body>
+</html>
