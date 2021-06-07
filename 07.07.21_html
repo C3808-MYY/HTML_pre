@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <form action:"http://www.clarusway.com/action_page.php">
+        <h1>Hg To My Site</h1>
+        İsim ve şifre Giriniz:<br>
+        <input type = "text" name="kullanıcı_adı" size ="19" >
+        <br>
+        <input type = "password" name ="pass" size ="19" maxlength ="8">
+        <br>
+        <input type = "submit" value = "submit" size = "4">
+        </form>
+   </body>
+</html>
